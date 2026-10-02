@@ -19,4 +19,5 @@
         cin>>arr[i];
     }
     cout<<countOdd(arr, n);
+    return 0;
  }
