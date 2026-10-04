@@ -25,8 +25,8 @@ int secondMostFrequentElement(vector<int>& nums) {
         int SecondMax=0;
         int Result=0;
      for(auto a : copy ){
-        if(a.second <MaxValue && a.second> ){
-            MaxValue=a.second;
+        if(a.second <MaxValue && a.second> SecondMax){
+            SecondMax=a.second;
             Result = a.first;
         }
     }
